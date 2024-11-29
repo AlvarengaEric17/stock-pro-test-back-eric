@@ -27,7 +27,8 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
         message: 'Internal server erro'
     })
 })
+export default app
 
-app.listen(3333, () => console.log("SERVIDOR RODANDO ⏳"))
+//app.listen(3333, () => console.log("SERVIDOR RODANDO ⏳"))
 
 // deu erro 
